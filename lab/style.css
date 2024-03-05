@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box_main {
+    position: relative;
+    border: 10px solid black;
+    min-height: 90vh;
+    margin: 20px;
+}
+
+.box_red1 {
+    position: absolute;
+    background: #EE1C24;
+    border: 5px solid black;
+    height: 60%;
+    width: 10%;
+}
+
+.box_white1 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    height: 40%;
+    width: 10%;
+    top: 60%;
+}
+
+.box_blue1 {
+    position: absolute;
+    background: #114A9B;
+    border: 5px solid black;
+    height: 15%;
+    width: 45%;
+    left: 10%;
+}
+
+.box_white2 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    height: 10%;
+    width: 15%;
+    left: 10%;
+    top: 15%;
+}
+
+.box_white3 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    height: 40%;
+    width: 15%;
+    top: 25%;
+    left: 10%;
+}
+
+.box_yellow1 {
+    position: absolute;
+    background: #F9ED11;
+    border: 5px solid black;
+    height: 35%;
+    width: 30%;
+    left: 10%;
+    top: 65%;
+}
+
+.box_yellow2 {
+    position: absolute;
+    background: #F9ED11;
+    border: 5px solid black;
+    height: 10%;
+    width: 20%;
+    left: 25%;
+    top: 15%;
+}
+.box_white4 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    height: 10%;
+    width: 20%;
+    left: 25%;
+    top: 25%;
+}
+
+.box_white5 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    width: 25%;
+    height: 30%;
+    left: 25%;
+    top: 35%;
+}
+
+.box_white6 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    width: 20%;
+    height: 17%;
+    top: 65%;
+    left: 40%;
+}
+
+.box_red2 {
+    position: absolute;
+    background: #EE1C24;
+    border: 5px solid black;
+    width: 20%;
+    height: 18%;
+    top: 82%;
+    left: 40%;
+}
+
+.box_white7 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    left: 45%;
+    top: 15%;
+    width: 5%;
+    height: 20%;
+}
+
+.box_red3 {
+    position: absolute;
+    background: #EE1C24;
+    border: 5px solid black;
+    left: 50%;
+    top: 15%;
+    height: 50%;
+    width: 25%;
+}
+
+.box_white8 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    left: 55%;
+    height: 15%;
+    width: 36%;
+}
+
+.box_blue2 {
+    position: absolute;
+    background: #114A9B;
+    border: 5px solid black;
+    left: 60%;
+    top: 65%;
+    height: 10%;
+    width: 15%;
+}
+
+.box_white9 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    left: 60%;
+    top: 75%;
+    height: 25%;
+    width: 15%;
+}
+
+.box_blue3 {
+    position: absolute;
+    background: #114A9B;
+    border: 5px solid black;
+    left: 75%;
+    top: 15%;
+    height: 40%;
+    width: 8%;
+}
+
+.box_black {
+    position: absolute;
+    background: black;
+    border: 5px solid black;
+    left: 75%;
+    top: 55%;
+    height: 10%;
+    width: 3%;
+}
+
+.box_white10 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    left: 75%;
+    top: 65%;
+    width: 8%;
+    height: 35%;
+}
+
+.box_white11 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    left: 83%;
+    top: 15%;
+    height: 40%;
+    width: 8%;
+}
+
+.box_red4 {
+    position: absolute;
+    background: #EE1C24;
+    border: 5px solid black;
+    left: 78%;
+    top: 55%;
+    height: 10%;
+    width: 13%;
+}
+
+.box_yellow3 {
+    position: absolute;
+    background: #F9ED11;
+    border: 5px solid black;
+    left: 83%;
+    top: 65%;
+    width: 8%;
+    height: 35%;
+}
+
+.box_yellow4 {
+    position: absolute;
+    background: #F9ED11;
+    border: 5px solid black;
+    height: 40%;
+    width: 10%;
+    left: 91%;
+}
+
+.box_white12 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    top: 40%;
+    left: 91%;
+    height: 60%;
+    width: 10%;
+}
+
+.box_yellow5 {
+    position: absolute;
+    background: #fff;
+    border: 5px solid black;
+    
+}
+
