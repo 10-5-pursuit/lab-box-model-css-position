@@ -154,18 +154,18 @@
     background-color: #0856c4;
     border: 5px solid black;
     height: 30%;
-    width: 13%;
+    width: 12%;
     left: 67%;
     top: 20%;
 }
-.box_eighteen_black{
+.box_eighteen_white{
     position: absolute;
-    background-color: black;
+    background-color: #fff;
     border: 5px solid black;
-    height: 10%;
-    width: 5%;
-    left: 67%;
-    top: 50%;
+    height: 30%;
+    width: 11%;
+    left: 79%;
+    top: 20%;
 }
 .box_nineteen_black{
     position: absolute;
@@ -175,15 +175,6 @@
     width: 5%;
     left: 67%;
     top: 50%;
-}
-.box_twenty_white{
-    position: absolute;
-    background-color: rgb(85, 24, 216);
-    border: 5px solid black;
-    height: 30%;
-    width: 13%;
-    left: 79%;
-    top: 20%; 
 }
 .box_twenty_white {
     position: absolute;
