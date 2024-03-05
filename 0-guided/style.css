@@ -1,0 +1,95 @@
+body{
+    width: 1200px;
+    height: 100vh;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.panel1{
+    width: 25%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.p1Row1{
+    width: 100%;
+    height: 40vh;
+    background: gray;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+}
+.p1Row2{
+    width: 100%;
+    height: 40vh;
+    background: gray;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+}
+.p1Row3{
+    width: 100%;
+    height: 20vh;
+    background: blue;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+    border-bottom: 5px black solid;
+}
+
+.panel2{
+    width: 75%;
+    height: 100%;
+}
+.p2Row1{
+    background: red;
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-top: 400px;
+    border-right: 5px black solid;
+    border-left: 5px black solid;
+    border-top: 5px black solid;
+}
+.p2Row1 p{
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+}
+.p2Row2{
+    background: grey;
+    width: 100%;
+    height: 20vh;
+    box-sizing: border-box;
+    display: flex;
+    border: 5px black solid;
+}
+.p2Row2Col1{
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.p2Row2Col2{
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.p2Row2Col2Row1{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    border-left: 5px black solid;
+}
+.p2Row2Col2Row2{
+    background: yellow;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    border-left: 5px black solid;
+    border-top: 5px black solid;
+}

@@ -1,0 +1,267 @@
+body{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.left{
+    height: 100%;
+    width: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+.leftTop{
+    width: 100%;
+    height: 60%;
+    background: red;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+}
+.leftBottom{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+    border-bottom: 5px black solid;
+}
+
+.middle{
+    height: 100%;
+    width: 700px;
+    display: block;
+    box-sizing: border-box;
+}
+.middleTop{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.middleTopLeft{
+    height: 100%;
+    width: 50%;
+    background: blue;
+    box-sizing: border-box;
+}
+.middleTopRight{
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-left: 5px black solid;
+}
+
+.middleCenter{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.middleCenterCol1{
+    height: 100%;
+    width: 100px;
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleCenterCol1Row1{
+    height: 25%;
+    width: 100px;
+    box-sizing: border-box;
+}
+.middleCenterCol1Row2{
+    height: 75%;
+    width: 100px;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+}
+.middleCenterCol2{
+    height: 100%;
+    width: 200px;
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleCenterCol2Row1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.middleCenterCol2Row1Col1{
+    height: 100%;
+    width: 75%;
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleCenterCol2Row1Col1Row1{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    background: yellow;
+}
+.middleCenterCol2Row1Col1Row2{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+}
+.middleCenterCol2Row1Col2{
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+}
+.middleCenterCol2Row2{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+}
+.middleCenterCol3{
+    height: 100%;
+    width: 200px;
+    background: red;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleCenterCol4{
+    height: 100%;
+    width: 200px;
+    display: block;
+    box-sizing: border-box;
+}
+.middleCenterCol4Row1{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    box-sizing: border-box;
+}
+.middleCenterCol4Row1Col1{
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background: blue;
+}
+.middleCenterCol4Row1Col2{
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-left: 5px black solid;
+}
+.middleCenterCol4Row2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+}
+.middleCenterCol4Row2Col1{
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+    background: black;
+}
+.middleCenterCol4Row2Col2{
+    height: 100%;
+    width: 75%;
+    box-sizing: border-box;
+    background: red;
+    border-left: 5px black solid;
+}
+
+.middleBottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    box-sizing: border-box;
+    border: 5px black solid;
+}
+.middleBottomCol1{
+    height: 100%;
+    width: 200px;
+    background: yellow;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleBottomCol2{
+    height: 100%;
+    width: 200px;
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleBottomCol2Row1{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.middleBottomCol2Row2{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    background: red;
+    border-top: 5px black solid;
+}
+.middleBottomCol3{
+    height: 100%;
+    width: 100px;
+    display: block;
+    box-sizing: border-box;
+    border-right: 5px black solid;
+}
+.middleBottomCol3Row1{
+    height: 25%;
+    width: 100%;
+    box-sizing: border-box;
+    background: blue;
+}
+.middleBottomCol3Row2{
+    height: 75%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+}
+.middleBottomCol4{
+    height: 100%;
+    width: 100px;
+    box-sizing: border-box;
+}
+.middleBottomCol5{
+    height: 100%;
+    width: 100px;
+    box-sizing: border-box;
+    background: yellow;
+    border-left: 5px black solid;
+}
+
+.right{
+    height: 100%;
+    width: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+.rightTop{
+    width: 100%;
+    height: 40%;
+    background: yellow;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+}
+.rightBottom{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+}
