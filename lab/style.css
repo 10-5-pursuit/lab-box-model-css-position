@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    min-height: 90vh;
+    margin: 10px;
+    position: relative;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.box_red_one {
+    position: absolute;
+    background-color: red;
+    height: 63%;
+    width: 12.5%;
+    border: 3px solid black
+}
+
+.box_white_one {
+    position: absolute;
+    background-color: white;
+    height: 37.5%;
+    width: 12.5%;
+    border: 3px solid black;
+    top: 63%;
+}
+
+.box_blue_one {
+    position: absolute;
+    background-color: rgb(48, 72, 158);
+    border: 3px solid black;
+    height: 18%; 
+    width: 38.5%;
+    left: 12.5%
+}
+
+.box_white_two {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 18%; 
+    width: 37%;
+    left: 51%; 
+}
+
+.box_yellow_one {
+    position: absolute;
+    background-color: yellow;
+    border: 3px solid black;
+    height: 44%;
+    width: 12.2%;
+    left: 88%;
+}
+
+.box_yellow_two {
+    position: absolute;
+    background-color: yellow;
+    border: 3px solid black;
+    height: 37.5%;
+    width: 19.5%;
+    top: 63%;
+    left: 12.5%;
+}
+
+.box_white_three {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 56.5%;
+    width: 12.2%;
+    left: 88%;
+    top: 44%;
+}
+
+.box_white_four {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 35%;
+    width: 10%;
+    left: 12.5%;
+    top: 28%
+}
+
+.box_white_five{
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 10%;
+    width: 10%;
+    left: 12.5%;
+    top: 18%;
+}
+
+.box_yellow_three {
+    position: absolute;
+    background-color: yellow;
+    border: 3px solid black;
+    height: 10%;
+    width: 15%;
+    left: 22.5%;
+    top: 18%;
+}
+
+.box_white_six {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 10%;
+    width: 15%;
+    left: 22.5%;
+    top: 28%;
+}
+
+.box_white_seven {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 20%;
+    width: 5.5%;
+    left: 37.2%;
+    top: 18%;
+}
+
+.box_white_eight {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 25%;
+    width: 20%;
+    top: 38%;
+    left: 22.5%; 
+}
+
+.box_red_two {
+    position: absolute;
+    background-color: red;
+    border: 3px solid black;
+    height: 18.5%;
+    width: 19.5%;
+    top: 82%;
+    left: 32%;
+}
+.box_white_nine {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 19%;
+    width: 19.5%;
+    top: 63%;
+    left: 32%;
+}
+
+.box_red_three {
+    position: absolute;
+    background-color: red;
+    border: 3px solid black;
+    height: 45%;
+    width: 22.5%;
+    top: 18%;
+    left: 42.5%;
+}
+
+.box_blue_two {
+    position: absolute;
+    background-color: rgb(48, 72, 158);
+    border: 3px solid black;
+    height: 35%;
+    width: 11.5%;
+    top: 18%;
+    left: 65%;
+}
+
+.box_white_ten {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 35%;
+    width: 11.5%;
+    top: 18%;
+    left: 76.5%;
+}
+
+.box_black_one {
+    position: absolute;
+    background-color: rgb(5, 5, 5);
+    border: 3px solid black;
+    height: 10%;
+    width: 5%;
+    top: 53%;
+    left: 65%;
+}
+
+.box_red_four {
+    position: absolute;
+    background-color: red;
+    border: 3px solid black;
+    height: 10%;
+    width: 18.1%;
+    top: 53%;
+    left: 70%;
+}
+
+.box_blue_three {
+    position: absolute;
+    background-color: rgb(48, 72, 158);
+    border: 3px solid black;
+    height: 10%;
+    width: 13.5%;
+    top: 63%;
+    left: 51.5%;
+}
+
+.box_white_eleven {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 27.5%;
+    width: 13.5%;
+    top: 73%;
+    left: 51.5%;
+}
+
+.box_white_twelve {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    height: 37.5%;
+    width: 11.5%;
+    top: 63%;
+    left: 65%;
+}
+
+.box_yellow_four {
+    position: absolute;
+    background-color: yellow;
+    border: 3px solid black;
+    height: 37.5%;
+    width: 11.5%;
+    top: 63%;
+    left: 76.5%;
+}
