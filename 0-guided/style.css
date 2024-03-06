@@ -1,0 +1,116 @@
+body{
+    height:200vh;
+}
+
+.container{
+    width:800px;
+    border: 15px solid black;
+    margin:50px auto;
+    position:relative;
+    
+}
+
+.box{
+    width:150px;
+    height: 150px;
+}
+
+.gray1{
+    background-color: gray;
+    position:relative;
+    border: 12px solid black;
+    border-left: 0px;
+    border-top:0px;
+ 
+    text-align: center;
+
+    
+}
+
+.gray2{
+    background-color: gray;
+    position:relative;
+    border: 12px solid black;
+    border-left: 0px;
+    border-top:0px;
+    
+    
+}
+
+.navyBlue{
+    background-color: rgb(12, 12, 110);
+    position:relative;
+    height:75px;
+    border: 12px solid black;
+    border-top:0px;
+    border-bottom:0px;
+    border-left:0px;
+}
+
+.gray3{
+    background-color: gray;
+    position:relative;
+    height:75px;
+    left: 162px;
+    width:500px;
+    bottom:10px;
+    border: 12px solid black;
+    border-bottom: 0px;
+    border-left: 0px;
+
+    
+}
+.gray4{
+    background-color: gray;
+    position:relative;
+    height:37.5px;
+    left: 662px;
+    bottom:96.5px;
+    width:126px;
+    border: 12px solid black;
+    border-bottom:0px;
+    
+    
+    
+    
+}
+.yellow5{
+    background-color: rgb(232, 174, 17);
+    position:relative;
+    height:33.5px;
+    top:35.5px;
+    right:8px;
+    width:126px;
+    border: 8px solid black;
+    
+  
+    
+}
+
+.red{
+    background-color: rgb(102, 7, 5);
+    position:relative;
+    left:162px;
+    height:314px;
+
+
+    width:640px
+    
+}
+
+.textBox{
+    width:200px;
+    height: 90px;
+    background-color: white;
+    border: 12px solid black;
+    position:relative;
+    top:125px;
+    left:150px;
+  
+
+}
+.heading{
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+}
