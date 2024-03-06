@@ -33,9 +33,9 @@
 
 /* General  */
 .container {
-  height: 90vh;
+  height: 50vh;
   margin: 20px;
-  /* aspect-ratio: 16/9; */
+  aspect-ratio: 16/9;
   position: relative;
   border: 5px solid black;
 }
