@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.white {
+  background-color: #d3cec5;
+}
+
+.blue {
+  background-color: #142d7e;
+}
+
+.red {
+  background-color: #a22e17;
+}
+
+.yellow {
+  background-color: #d1ae27;
+}
+
+.container {
+  height: 90vh;
+  margin: 20px;
+  position: relative;
+  border: 5px solid black;
+}
+
+.box-one {
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  border: 5px solid black;
+}
+
+.box-two {
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  top: 40%;
+  border: 5px solid black;
+}
+
+.box-three {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 80%;
+  border: 5px solid black;
+}
+
+.box-four {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 20%;
+  border: 5px solid black;
+}
+
+.box-five {
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  top: 80%;
+  left: 20%;
+  border: 5px solid black;
+}
+
+.box-six {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  top: 80%;
+  left: 80%;
+  border: 5px solid black;
+}
+
+.box-seven {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  top: 90%;
+  left: 80%;
+  border: 5px solid black;
+}
+
+.box-name {
+  position: absolute;
+  background-color: white;
+  border: 8px solid black;
+  padding: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
