@@ -15,7 +15,7 @@
 .box-red-left {
     position: absolute;
     background-color: red;
-    height: 60%;
+    height: 65%;
     width: 12%;
     border: 10px solid black;
     border-left: 0;
@@ -30,7 +30,6 @@
     border: 10px solid black;
     border-bottom: 0;
     border-left: 0;
-    border-top: 0;
     top: 60%;
 }
 
