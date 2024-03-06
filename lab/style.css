@@ -1,0 +1,224 @@
+:root {
+  --width-unit: calc(100% / 9);
+  --height-unit: calc(100% / 5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+
+.red {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+/* General  */
+.container {
+  height: 50vh;
+  margin: 20px;
+  aspect-ratio: 16/9;
+  position: relative;
+  border: 5px solid black;
+}
+
+.box {
+  position: absolute;
+  border: 5px solid black;
+}
+
+/* Sides */
+.left-one {
+  /* width: var(--size-unit); */
+  width: var(--width-unit);
+  height: calc(3 * var(--height-unit));
+  top: 0%;
+  left: 0%;
+}
+
+.left-two {
+  width: var(--width-unit);
+  height: calc(2 * var(--height-unit));
+  top: 60%;
+  left: 0;
+}
+
+.right-one {
+  width: var(--width-unit);
+  height: calc(2 * var(--height-unit));
+  top: 0%;
+  right: 0%;
+}
+
+.right-two {
+  width: var(--width-unit);
+  height: calc(3 * var(--height-unit));
+  top: 40%;
+  right: 0%;
+}
+
+/* Middle Top */
+
+.middle-top-one {
+  /* Fix width */
+  width: calc(4 * var(--width-unit) + calc(var(--width-unit) / 2) + 1px);
+  height: var(--height-unit);
+  top: 0;
+  left: var(--width-unit);
+}
+
+.middle-top-two {
+  width: var(--width-unit);
+  height: calc(var(--height-unit) / 2);
+  top: var(--height-unit);
+  left: var(--width-unit);
+}
+.middle-top-three {
+  width: var(--width-unit);
+  height: calc(var(--height-unit) / 2 + var(--height-unit));
+  top: calc(var(--height-unit) / 2 + var(--height-unit));
+  left: var(--width-unit);
+}
+
+.middle-top-four {
+  width: calc(var(--width-unit) + var(--width-unit) / 2);
+  height: calc(var(--height-unit) / 2);
+  top: var(--height-unit);
+  left: calc(2 * var(--width-unit));
+}
+
+.middle-top-five {
+  width: calc(var(--width-unit) + var(--width-unit) / 2);
+  height: calc(var(--height-unit) / 2);
+  top: calc(var(--height-unit) / 2 + var(--height-unit));
+  left: calc(2 * var(--width-unit));
+}
+
+.middle-top-six {
+  width: calc(var(--width-unit) / 2);
+  height: var(--height-unit);
+  top: calc(var(--height-unit));
+  left: calc(3 * var(--width-unit) + var(--width-unit) / 2);
+}
+
+.middle-top-seven {
+  width: calc(2 * var(--width-unit));
+  height: var(--height-unit);
+  top: calc(2 * var(--height-unit));
+  left: calc(2 * var(--width-unit));
+}
+
+.middle-top-eight {
+  /* Fix Width */
+  width: calc(2 * var(--width-unit) + calc(var(--width-unit) / 2));
+  height: var(--height-unit);
+  top: 0;
+  right: var(--width-unit);
+}
+
+.middle-top-nine {
+  width: calc(2 * var(--width-unit));
+  height: calc(2 * var(--height-unit));
+  top: var(--height-unit);
+  left: calc(4 * var(--width-unit));
+}
+
+.middle-top-ten {
+  width: var(--width-unit);
+  height: calc(calc(var(--height-unit) / 2) + var(--height-unit));
+  top: var(--height-unit);
+  right: calc(2 * var(--width-unit));
+}
+
+.middle-top-eleven {
+  width: var(--width-unit);
+  height: calc(calc(var(--height-unit) / 2) + var(--height-unit));
+  top: var(--height-unit);
+  right: var(--width-unit);
+}
+
+.middle-top-twelve {
+  width: calc(var(--width-unit) / 2);
+  height: calc(var(--height-unit) / 2);
+  top: calc(2 * var(--height-unit) + calc(var(--height-unit) / 2));
+  right: calc(2 * var(--width-unit) + calc(var(--width-unit) / 2));
+}
+
+.middle-top-thirteen {
+  width: calc(var(--width-unit) + calc(var(--width-unit) / 2));
+  height: calc(var(--height-unit) / 2);
+  top: calc(2 * var(--height-unit) + calc(var(--height-unit) / 2));
+  right: var(--width-unit);
+}
+/* .middle-top- */
+/* .middle-top- */
+/* .middle-top- */
+/* .middle-top- */
+
+/* Middle Bottom */
+.middle-bottom-one {
+  width: calc(2 * var(--width-unit));
+  height: calc(2 * var(--height-unit));
+  left: var(--width-unit);
+  bottom: 0%;
+}
+
+.middle-bottom-two {
+  width: calc(2 * var(--width-unit));
+  height: var(--height-unit);
+  left: calc(3 * var(--width-unit));
+  bottom: var(--height-unit);
+}
+
+.middle-bottom-three {
+  width: calc(2 * var(--width-unit));
+  height: var(--height-unit);
+  left: calc(3 * var(--width-unit));
+  bottom: 0%;
+}
+
+.middle-bottom-four {
+  width: var(--width-unit);
+  height: calc(var(--height-unit) / 2);
+  left: calc(5 * var(--width-unit));
+  bottom: calc(calc(var(--height-unit) / 2) * 3);
+}
+
+.middle-bottom-five {
+  width: var(--width-unit);
+  height: calc(var(--height-unit) / 2 + var(--height-unit));
+  left: calc(5 * var(--width-unit));
+  bottom: 0%;
+}
+
+.middle-bottom-six {
+  width: var(--width-unit);
+  height: calc(2 * var(--height-unit));
+  left: calc(6 * var(--width-unit));
+  bottom: 0%;
+}
+
+.middle-bottom-seven {
+  width: var(--width-unit);
+  height: calc(2 * var(--height-unit));
+  left: calc(7 * var(--width-unit));
+  bottom: 0%;
+}
