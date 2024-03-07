@@ -1,14 +1,77 @@
-.container{
-    width: 1000px;
-    height: 800px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.container{
     position: relative;
+    width: 100vh;
+    height: 100vw;
+   
+    
 }
 .thick-container {
     width: 1000px;
     height: 500px;
-    border: 8px solid black;
+    margin: 10px;
+    border: 2px solid black;
 }
 #top-left-box {
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    border-top: 7px black solid;
+    border-left: 7px black solid;
+    border-bottom: 7px black solid;
+    border-right: 7px black solid;
+    background: red;
+}
+#bottom-left-box{
+    position: absolute;
+    width: 120px;
+    height: 195px;
+    top: 100%;
+    background: white;
+    border-top: 7px black solid;
+    border-left: 7px black solid;
+    border-bottom: 7px black solid;
+    border-right: 7px black solid;
+    
+}
+.middle-left {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    background-color: darkblue;
+    left: 9%;
+    border: 7px solid black;
+}
+.middle-right{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    border: 7px solid black;
+    left: 100%;
+}
+.top-right{
+    width: 90px;
+    height: 200px;
+    position: absolute;
+    background-color: yellow;
+    border: 7px solid black;
+    left: 63%;
+}
+.bottom-right {
+    position: absolute;
+    width: 120px;
+    height: 300px;
+    top: 100%;
+    right: 1px;
+    border-top: 7px black solid;
+    border-left: 7px black solid;
+    border-bottom: 7px black solid;
+    border-right: 7px black solid;
+    background: white;
 }
