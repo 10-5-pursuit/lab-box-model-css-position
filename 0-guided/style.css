@@ -1,0 +1,88 @@
+
+body {
+    outline: 10px solid black;
+    padding: 250px;
+    margin: auto;
+}
+.pink-square1{
+    outline: 10px solid black;
+    position: absolute;
+    height: 120px;
+    width: 125px;
+    top: 200px;
+    left: 10px;
+    padding: 25px;
+    background-color: rgb(244, 205, 211);
+}
+.pink-square2{
+    outline: 10px solid black;
+    position: absolute;
+    height: 120px;
+    width: 125px;
+    top: 15px;
+    left: 10px;
+    padding: 25px;
+    background-color: rgb(244, 205, 211);
+}
+.blue-square1{
+    outline: 10px solid black;
+    position: absolute;
+    height: 95px;
+    width: 25%;
+    top: 380px;
+    left: 10px;
+    padding: 25px;
+    background-color: blue;
+}
+.pink-square3{
+    outline: 10px solid black;
+    position: absolute;
+    height: 95px;
+    width: 50%;
+    top: 380px;
+    left: 30%;
+    padding: 25px;
+    background-color: rgb(244, 205, 211);
+   
+}
+.top-rec {
+    outline: 10px solid black;
+    position: absolute;
+    height: 25px;
+    width: 10.5%;
+    top: 380px;
+    right: 10px;
+    padding: 25px;
+    background-color: yellow;
+}
+.bottom-rec {
+    outline: 10px solid black;
+    position: absolute;
+    height: 25px;
+    width: 10.5%;
+    top: 450px;
+    right: 10px;
+    padding: 25px;
+    background-color: purple;
+}
+.red-rec {
+    outline: 10px solid black;
+    position: absolute;
+    height: 305px;
+    width: 80%;
+    top: 15px;
+    right: 10px;
+    padding: 25px;
+    background-color: red;
+}
+section {
+        outline: 10px solid black;
+        position: absolute;
+        height: 50px;
+        width: 125px;
+        top: 200px;
+        left: 50%;
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+}
