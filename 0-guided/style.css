@@ -1,84 +1,87 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
-.container{
+
+.container {
     min-height: 90vh;
     position: relative;
     margin: 20px;
     border: 5px solid black;
+   
 }
 .box_one_white {
-    position: absolute;
-    background-color: #D3CEC5;
-    height: 40%;
-    width: 20%;
+   position: absolute;
+    width: 280px;
+    height: 240px;
     border: 10px solid black;
+    background-color: beige;
 }
 .box_two_white {
     position: absolute;
-    background-color: #D3CEC5;
-    height: 40%;
-    width: 20%;
-    top: 40%;
+    width: 280px;
+    height: 240px;
     border: 10px solid black;
-
+    background-color: beige;
+    left: 0%;
+    top: 38%;
 }
 .box_three_blue {
     position: absolute;
-    background-color: #142d73;
-    height: 20%;
-    width: 20%;
+    width: 280px;
+    height: 150px;
     border: 10px solid black;
-    top: 80%;
+    background-color: blue;
+    left: 0%;
+    top: 76%;
 }
 .box_four_red {
     position: absolute;
-    background-color: #a22e17;
-    height: 80%;
-    width: 80%;
+    width: 1113px;
+    height: 475px;
     border: 10px solid black;
-    left: 20%; 
-}
-.box_five_white {
-    position: absolute;
-    background-color: #D3CEC5;
-    height: 20%;
-    width: 60%;
-    top: 80%;
+    background-color: red;
     left: 20%;
-    border: 10px solid black;
-
 }
-.box_six_white{
+.box_five_white{
     position: absolute;
-    background-color: #D3CEC5;
-    height: 10%;
-    width: 20%;
+    width: 800px;
+    height: 145px;
     border: 10px solid black;
-    top: 80%;
-    left: 80%;
+    background-color: beige;
+    left: 20%;
+    bottom: 0%;
 }
-.box_seven_yellow{
+.box_six_white {
     position: absolute;
+    width: 320px;
+    height: 80px;
+    border: 10px solid black;
+    background-color: beige;
+    top: 76%;
+    left: 77%;
+}
+.box_seven_yellow {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    border: 10px solid black;
     background-color: yellow;
-    height: 10%;
-    width: 20%;
-    border: 10px solid black;
-    top: 90%;
-    left: 80%;
+    bottom: 0%;
+    left: 77%;
 }
 .box_name {
     position: absolute;
-    background-color: white;
-    border: 5px solid black;
-    padding: 30px;
-    text-align: center;
-    font-size: 22px;
+    width: 300px;
+    color: black;
+    padding: 50px;
     left: 50%;
     top: 50%;
-    width: 12%;
+    font-size: 30px;
+    text-align: center;
+    background-color: beige;
+    border: 5px solid black;
     transform: translate(-50%, -50%);
-    
+
 }
