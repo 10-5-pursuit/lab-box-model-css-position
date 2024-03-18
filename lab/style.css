@@ -1,0 +1,251 @@
+body {
+    /* background-color: darkgray; */
+    }
+    
+    .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .box-one-red {
+    position: absolute;
+    border: 13px solid black;
+    height: 55%;
+    width: 10%;
+    background-color: red;
+    }
+    
+    .box-two-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 37%;
+    width: 10%;
+    top: 58%;
+    }
+    
+    .box-three-blue {
+    position: absolute;
+    border: 13px solid black;
+    background-color: rgb(71, 71, 181);
+    height: 15%;
+    width: 40%;
+    left: 11.5%;
+    }
+    
+    .box-four-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 7%;
+    width: 10%;
+    left: 11.5%;
+    top: 18%;
+    }
+    
+    .box-five-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 30%;
+    width: 10%;
+    top: 27%;
+    left: 11.5%;
+    
+    }
+    .box-six-yellow {
+    position: absolute;
+    border: 13px solid black;
+    background-color: yellow;
+    height: 37%;
+    width: 25%;
+    top: 58%;
+    left: 11.2%;
+    }
+    
+    .box-seven-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: yellow;
+    height: 7%;
+    width: 15%;
+    left: 22.5%;
+    top: 18.5%;
+    }
+    
+    .box-eight-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: white;
+    height: 7%;
+    width: 15%;
+    left: 22.5%;
+    top: 28%;
+    }
+    
+    .box-nine-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 19%;
+    width: 19.5%;
+    top: 37%;
+    left: 22.5%;
+    }
+    
+    .box-ten-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 17%;
+    width: 4%;
+    left: 38%;
+    top: 18%;
+    }
+    
+    .box-twelve-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: white;
+    height: 38%;
+    width: 10%;
+    top: 9%;
+    left: 77%;
+    }
+    
+    .box-eleven-red {
+    position: absolute;
+    border: 13px solid black;
+    background-color: red;
+    height: 38%;
+    width: 22%;
+    left: 43%;
+    top: 18%;
+    }
+    
+    .box-thirteen-black {
+    position: absolute;
+    border: 13px solid black;
+    background-color: black;
+    height: 7%;
+    width: 6%;
+    left: 66%;
+    top: 49%;
+    }
+    
+    
+    .box-fourteen-blue {
+    position: absolute;
+    border: 13px solid black;
+    background-color: rgb(71, 71, 181);
+    height: 7%;
+    width: 10%;
+    left: 55%;
+    top: 58%;
+    }
+    .box-sixteen-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 17%;
+    width: 17%;
+    top: 58%;
+    left: 37%;
+    }
+    
+    .box-fifteen-red {
+    position: absolute;
+    border: 13px solid black;
+    background-color: red;
+    height: 18%;
+    width: 18%;
+    top: 77%;
+    left: 37%;
+    }
+    
+    .box-seventeen-red {
+    position: absolute;
+    border: 13px solid black;
+    background-color: red;
+    height: 7%;
+    width: 15%;
+    left: 72%;
+    top: 49%;
+    }
+    
+    .box-eighteen-blue {
+    position: absolute;
+    border: 13px solid black;
+    background-color: rgb(71, 71, 181);
+    height: 38%;
+    width: 10%;
+    top: 9%;
+    left: 66%;
+    }
+    
+    .box-nineteen-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: white;
+    height: 30%;
+    width: 10%;
+    top: 65%;
+    left: 55%;
+    }
+    
+    
+    
+    
+    
+    
+    .box-twenty-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: white;
+    height: 37%;
+    width: 10%;
+    top: 58%;
+    left: 66%;
+    }
+    
+    
+    
+    
+    .box-twentyone-yellow {
+    position: absolute;
+    border: 13px solid black;
+    background-color: yellow;
+    height: 37%;
+    width: 10%;
+    top: 58%;
+    left: 77%;
+    }
+    
+    
+    
+    .box-twentytwo-white {
+    position: absolute;
+    border: 13px solid black;
+    background-color: white;
+    height: 15%;
+    width: 40%;
+    left: 50%;
+    }
+    
+    .box-twentyfour-white {
+    position: absolute;
+    border: 13px solid black;
+    height: 56%;
+    width: 10%;
+    background-color: white;
+    left: 88%;
+    top: 39%;
+    }
+    
+    .box-twentythree-yellow {
+    position: absolute;
+    border: 13px solid black;
+    background-color: yellow;
+    height: 37%;
+    width: 10%;
+    /* top:%; */
+    left: 88%;
+    }
+    
